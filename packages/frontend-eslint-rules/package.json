@@ -1,0 +1,28 @@
+{
+	"name": "@heyframe-ag/frontend-eslint-rules",
+	"type": "module",
+	"description": "HeyFrame Frontend ESLint rules",
+	"version": "1.0.0",
+	"main": "index.js",
+	"peerDependencies": {
+		"eslint": "catalog:"
+	},
+	"exports": {
+		".": {
+			"import": "./index.js",
+			"require": "./index.js"
+		}
+	},
+	"scripts": {
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"eslint": "catalog:",
+		"vitest": "catalog:"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/heyframeLabs/heyframe-javascript-code-quality.git",
+		"directory": "packages/frontend-eslint-rules"
+	}
+}

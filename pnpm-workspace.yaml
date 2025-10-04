@@ -1,0 +1,9 @@
+packages:
+  - packages/*
+
+onlyBuiltDependencies:
+  - esbuild
+
+catalog:
+  eslint: ^9.35.0
+  vitest: ^3.2.0

@@ -1,0 +1,42 @@
+{
+	"name": "@heyframe-ag/admin-eslint-rules",
+	"type": "module",
+	"description": "HeyFrame Administration ESLint rules",
+	"version": "1.0.1",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"compare-versions": "^6.1.1"
+	},
+	"peerDependencies": {
+		"eslint": "catalog:"
+	},
+	"exports": {
+		".": {
+			"import": "./index.js",
+			"require": "./index.js"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/heyframeLabs/heyframe-javascript-code-quality.git",
+		"directory": "packages/admin-eslint-rules"
+	},
+	"keywords": [
+		"heyframe",
+		"eslint",
+		"eslint-plugin",
+		"eslint-rules"
+	],
+	"homepage": "https://github.com/heyframeLabs/heyframe-javascript-code-quality/tree/main/packages/admin-eslint-rules#readme",
+	"bugs": {
+		"url": "https://github.com/heyframeLabs/heyframe-javascript-code-quality/issues"
+	},
+	"scripts": {
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"eslint": "^9.35.0",
+		"vitest": "^3.2.0"
+	}
+}
