@@ -20,7 +20,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/heyframeLabs/heyframe-javascript-code-quality.git",
+		"url": "https://github.com/heyframe/heyframe-javascript-code-quality.git",
 		"directory": "packages/admin-stylelint-rules"
 	}
 }
